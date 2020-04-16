@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Exotic Animals</title>
-  <link rel="stylesheet" type="text/css" href="format.css">
-  <script src="jscode.js"></script>
+
+   <!-- the head creates the website title, links to the css formatting
+   file and links to the java script file for functions -->
+
+   <title>Exotic Animals</title>
+   <link rel="stylesheet" type="text/css" href="format.css">
+   <script src="jscode.js"></script>
+
  </head>
  <body>
 
-   <!-- Test Comment-->
+    <!-- Header section creates Test Comment-->
 
-    <h1>Exotic Animals Store</h1>
+    <h1>Exotic Animal Rentals</h1>
     <p class="slogan">Funny Slogan</p>
 
-    <h2>Items Available for Purchase</h2>
-    <p>Click on image to add to cart</p>
+    <!-- This section will show all the items available with pictures
+    that users can click on to add them to a cart -->
 
+    <h2>Animals Available</h2>
+    <p>Click on an image to add to your cart</p>
+
+    <img id="tiger" src="tiger.jpg" onclick="purchase();">
+    <img id="lion" src="lion.jpg" onclick="purchase();">
+    <img id="baboon" src="baboon.jpg" onclick="purchase();">
+    <img id="peacock" src="peacock.jpg" onclick="purchase();">
+
+
+    <!--
+    <form>
+      <button onclick="clicked();">Purchase</button>
+    </form>
+    -->
+
+    <!-- I was thinking about making an "aside" that pops up to show the
+    user what is in the cart once an item has been added to it. This would
+    a box on the right side of the page. I think the general functionality
+    of it appearing is now working.  -->
     <aside id="aside">
       <h3 id="cartTitle">Cart:</h3>
       <p>This aside is where the cart will pop up once they select items</p>
     </aside>
 
-   <img id="mask" src="face_mask.jpg" onclick="clicked();">
-
-    <form>
-      <button onclick="clicked();">Purchase</button>
-    </form>
+    <!-- The functionality that hides/shows the cart could also be
+    used for product description or other sections -->
 
   </body>
 </html>
