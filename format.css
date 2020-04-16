@@ -1,0 +1,50 @@
+h1 {
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-variant: small-caps;
+}
+.slogan {
+  text-align: center;
+}
+#slogan {
+  display: inline;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+h2 {
+  color: black;
+  padding-left: 5px;
+  text-align: left;
+}
+h3 {
+  color: black;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  text-align: left;
+}
+body {
+
+  background-color: white;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+aside {
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    position:   sticky;
+    float: right;
+    border: 2px solid green;
+    font-style: italic;
+    color: black;
+    display: none;
+}
+#cartTitle {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-variant: small-caps;
+}
