@@ -20,11 +20,13 @@ var purchase = function() {
   //open up a window after they click
   alert("You are one step closer to possessing an exotic animal!!!!");
 
+  //increase the total value of the cart
+  totalCart += activeAnimal.cost;
+
   //shows the cart after a click of a product
   document.getElementById("aside").style.display = "block";
 
   //This will add the animal that they chose to purchase to the cart
-  //document.getElementById("cart").textContent += activeAnimal.name + '\r\n';
   document.getElementById("cart").innerHTML += activeAnimal.name;
   document.getElementById("cart").innerHTML += "<br/>";
   document.getElementById("cart").innerHTML += "----------$" + activeAnimal.cost;
@@ -47,8 +49,5 @@ var details = function(animal) {
 
   //set animal being viewed to active for cart management
   activeAnimal = animal;
-
-  //increase the total value of the cart
-  totalCart += animal.cost;
 
 }
