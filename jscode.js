@@ -51,3 +51,17 @@ var details = function(animal) {
   activeAnimal = animal;
 
 }
+
+var checkout = function(){
+
+  alert("Please enter your shipping and payment info");
+  //shows the cart after a click of a product
+  document.getElementById("form").style.display = "block";
+
+
+}
+
+var buyNow = function(){
+  alert("Your animals are on their way!");
+  //add image of Joe Exotic giving thumbs up?
+}
