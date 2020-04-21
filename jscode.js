@@ -18,7 +18,7 @@ var totalCart = 0;
 var purchase = function() {
 
   //open up a window after they click
-  alert("Congratulations: You are one step closer to possessing an exotic animal!");
+  alert("You are one step closer to possessing an exotic animal!!!!");
 
   //shows the cart after a click of a product
   document.getElementById("aside").style.display = "block";
