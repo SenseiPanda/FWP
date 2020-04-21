@@ -54,3 +54,9 @@ section {
 #productDetails {
   display: none;
 }
+#subtotal {
+  color: black;
+  text-align: right;
+  font-weight:  bold;
+  text-decoration: underline;
+}
