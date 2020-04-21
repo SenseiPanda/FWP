@@ -1,6 +1,6 @@
 
 //This is all the product information
-var tiger = {name: "Tiger", cost: 12, info: "This is a full grown female tiger and if the correct precautions are not taken it will maul you!"};
+var tiger = {name: "Tiger", cost: 12, info: "This is a full grown tiger and if the correct precautions are not taken it will maul you!"};
 var lion = {name: "Lion", cost: 50, info: "This lion just came from Africa. Note: It will not act like you house cat."};
 var baboon = {name: "Baboon", cost: 45, info: "Baboons are a lot of fun to have around, great for any party."};
 var peacock = {name: "Peacock", cost: 3500, info: "Peacock's look nice but otherwise have no good qualities, they are loud and obnoxious."};
