@@ -15,7 +15,7 @@
     <!-- Header section creates Test Comment-->
 
     <h1>Exotic Animal Rentals</h1>
-    <p class="slogan">Funny Slogan</p>
+    <p class="slogan">New Funny Slogan</p>
 
     <!-- This section will show all the items available with pictures
     that users can click on to add them to a cart -->
@@ -23,29 +23,37 @@
     <h2>Animals Available</h2>
     <p>Click on an image to add to your cart</p>
 
-    <img id="tiger" src="tiger.jpg" onclick="purchase();">
-    <img id="lion" src="lion.jpg" onclick="purchase();">
-    <img id="baboon" src="baboon.jpg" onclick="purchase();">
-    <img id="peacock" src="peacock.jpg" onclick="purchase();">
-
-
-    <!--
-    <form>
-      <button onclick="clicked();">Purchase</button>
-    </form>
-    -->
+    <img id="tiger1" src="tiger.jpg" onclick="details(tiger);">
+    <img id="lion1" src="lion.jpg" onclick="details(lion);">
+    <img id="baboon1" src="baboon.jpg" onclick="details(baboon);">
+    <img id="peacock1" src="peacock.jpg" onclick="details(peacock);">
 
     <!-- I was thinking about making an "aside" that pops up to show the
     user what is in the cart once an item has been added to it. This would
-    a box on the right side of the page. I think the general functionality
-    of it appearing is now working.  -->
+    a box on the right side of the page. I had it working but after adding the
+    other function "details" this appearance no longer works-->
     <aside id="aside">
       <h3 id="cartTitle">Cart:</h3>
       <p>This aside is where the cart will pop up once they select items</p>
     </aside>
 
-    <!-- The functionality that hides/shows the cart could also be
-    used for product description or other sections -->
+    <!-- This is going to be the section that shows some product details
+    of each potential animal that they can purchase. It is initially hidden
+    but becomes visible when a user clicks on an image of an animal-->
+
+    <section id="productDetails">
+      <h2>Product Details</h2>
+      <p id="showName"></p>
+      <p id="showCost"></p>
+      <p id="showDetails"></p>
+      <p id="stuff"></p>
+
+      <form>
+        <button onclick="purchase();">Add to Cart</button>
+      </form>
+
+    </section>
+
 
   </body>
 </html>
