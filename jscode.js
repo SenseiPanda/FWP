@@ -64,4 +64,5 @@ var checkout = function(){
 var buyNow = function(){
   alert("Your animals are on their way!");
   //add image of Joe Exotic giving thumbs up?
+  //or bring to a new page
 }
