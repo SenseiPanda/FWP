@@ -1,9 +1,17 @@
 
-// This is the product information for the four "items" for sale
-var tiger = {name: "Tiger", cost: 12, info: "This is a full grown tiger and if the correct precautions are not taken it will maul you!"};
-var lion = {name: "Lion", cost: 50, info: "This lion just came from Africa. Note: It will not act like you house cat."};
-var baboon = {name: "Baboon", cost: 45, info: "Baboons are a lot of fun to have around. Great for any party!"};
-var peacock = {name: "Peacock", cost: 3500, info: "Peacocks look nice but otherwise have no good qualities. They are loud and obnoxious."};
+// This is the product information for the 16 "items" for sale
+var tiger = {name: "Tiger", cost: 2250, info: "This is a full grown tiger and if the correct precautions are not taken it will maul you!"};
+var lion = {name: "Lion", cost: 2500, info: "This lion just came from Africa. Note: It will not act like you house cat."};
+var baboon = {name: "Baboon", cost: 1950, info: "Baboons are a lot of fun to have around. Great for any party!"};
+var peacock = {name: "Peacock", cost: 625, info: "Peacocks look nice but otherwise have no good qualities. They are loud and obnoxious."};
+var wallaby = {name: "Wallaby", cost: 500, info: "Closely resembling the kangaroo, wallabies are cute, energetic, and hoppy. Lots of outdoor space required."};
+var chimpanzee = {name: "Chimpanzee", cost: 1875, info: "Absolutely adorable, endless possibilities for play, incredibly smart, but occasionally tempermental. Chimps will definitely keep you on your toes."};
+var fox = {name: "Fennec Fox", cost: 825, info: "Always wondered what DID the fox say? Now you'll know."};
+var lemur = {name: "Ring-Tailed Lemur", cost: 1125, info: "Native to Madagascar, Ring-tailed lemurs have long, black-and-white striped tails with remarkable dexterity. Calm, friendly temperment, lemurs make great pets!"};
+var meerkat = {name: "Meerkat", cost: 575, info: "Cute and cuddly, you can't own just one! These animals thrive in packs."};
+var zebra = {name: "Zebra", cost: 1575, info: "Why ride a horse when you can gallop on the back of a zebra? Warmer climates preferred."};
+
+
 
 
 // This will be a variable to store what animal the user is viewing
