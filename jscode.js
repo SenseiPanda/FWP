@@ -19,12 +19,11 @@ var orca = {name: "Orca", cost: 5000, info: "Orcas are big. Must have a swimming
 
 
 
-
 // This will be a variable to store what animal the user is viewing
 // so that it can be added to the cart
 var activeAnimal = {};
 
-//this variable will hold the total cart value
+//this variable will hold the cost of all of the animals that have been added to the cart
 var totalCart = 0;
 
 //This function provides the actions after a user clicks purchase
