@@ -10,6 +10,10 @@ var fox = {name: "Fennec Fox", cost: 825, info: "Always wondered what DID the fo
 var lemur = {name: "Ring-Tailed Lemur", cost: 1125, info: "Native to Madagascar, ring-tailed lemurs have long, black-and-white striped tails with remarkable dexterity. Calm, friendly temperament, lemurs make great pets!"};
 var meerkat = {name: "Meerkat", cost: 575, info: "Cute and cuddly, you can't own just one! These animals thrive in packs."};
 var zebra = {name: "Zebra", cost: 1575, info: "Why ride a horse when you can gallop on the back of a zebra? Warmer climates preferred."};
+var llama = {name: "Llama", cost: 1000, info: "The best animals in the world."};
+var alpaca = {name: "Alpaca", cost: 1250, info: "Just a fancy llama."};
+var vicuna = {name: "Vicuna", cost: 1800, info: "Shipped straight from the mountains of Peru. But are these skinny-looking llamas really worth the extra cost?"};
+var camel = {name: "Camel", cost: 2500, info: "Even weirder looking than llamas."};
 
 
 
