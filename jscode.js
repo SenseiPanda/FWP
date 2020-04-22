@@ -14,6 +14,8 @@ var llama = {name: "Llama", cost: 1000, info: "The best animals in the world."};
 var alpaca = {name: "Alpaca", cost: 1250, info: "Just a fancy llama."};
 var vicuna = {name: "Vicuna", cost: 1800, info: "Shipped straight from the mountains of Peru. But are these skinny-looking llamas really worth the extra cost?"};
 var camel = {name: "Camel", cost: 2500, info: "Even weirder looking than llamas."};
+var cat = {name: "Cat", cost: 10, info: "Please buy our cat. We are sick of her!!!!!"};
+var orca = {name: "Orca", cost: 5000, info: "Orcas are big. Must have a swimming pool!!};
 
 
 
