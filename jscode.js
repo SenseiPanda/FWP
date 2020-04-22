@@ -15,7 +15,7 @@ var alpaca = {name: "Alpaca", cost: 1250, info: "Just a fancy llama."};
 var vicuna = {name: "Vicuna", cost: 1800, info: "Shipped straight from the mountains of Peru. But are these skinny-looking llamas really worth the extra cost?"};
 var camel = {name: "Camel", cost: 2500, info: "Even weirder looking than llamas."};
 var cat = {name: "Cat", cost: 10, info: "Please buy our cat. We are sick of her!!!!!"};
-var orca = {name: "Orca", cost: 5000, info: "Orcas are big. Must have a swimming pool!!};
+var orca = {name: "Orca", cost: 5000, info: "Orcas are big. Must have a swimming pool!!"};
 
 
 
@@ -33,7 +33,7 @@ var purchase = function() {
   //open up a window after they click
   alert("You are one step closer to possessing an exotic animal!!!!");
 
-  //increase the total value of the cart
+  // when a new animal is added to the cart, increase the subtotal of the cart
   totalCart += activeAnimal.cost;
 
   //shows the cart after a click of a product
@@ -65,14 +65,21 @@ var details = function(animal) {
 
 }
 
+// add checkout functionality to the cart
+
 var checkout = function(){
 
+ // upon clicking "checkout", a box pops up that prompts user to enter payment information
+  // and shipping address
+  
   alert("Please enter your shipping and payment info");
   //shows the cart after a click of a product
   document.getElementById("form").style.display = "block";
 
 
 }
+
+// upon clicking the "buy now" button in the payment box, text pops up to confirm submission
 
 var buyNow = function(){
   alert("Your animals are on their way!");
