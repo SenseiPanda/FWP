@@ -7,7 +7,7 @@ var peacock = {name: "Peacock", cost: 625, info: "Peacocks look nice but otherwi
 var wallaby = {name: "Wallaby", cost: 500, info: "Closely resembling the kangaroo, wallabies are cute, energetic, and hoppy. Lots of outdoor space required."};
 var chimpanzee = {name: "Chimpanzee", cost: 1875, info: "Absolutely adorable, endless possibilities for play, incredibly smart, but occasionally tempermental. Chimps will definitely keep you on your toes."};
 var fox = {name: "Fennec Fox", cost: 825, info: "Always wondered what DID the fox say? Now you'll know."};
-var lemur = {name: "Ring-Tailed Lemur", cost: 1125, info: "Native to Madagascar, Ring-tailed lemurs have long, black-and-white striped tails with remarkable dexterity. Calm, friendly temperment, lemurs make great pets!"};
+var lemur = {name: "Ring-Tailed Lemur", cost: 1125, info: "Native to Madagascar, ring-tailed lemurs have long, black-and-white striped tails with remarkable dexterity. Calm, friendly temperament, lemurs make great pets!"};
 var meerkat = {name: "Meerkat", cost: 575, info: "Cute and cuddly, you can't own just one! These animals thrive in packs."};
 var zebra = {name: "Zebra", cost: 1575, info: "Why ride a horse when you can gallop on the back of a zebra? Warmer climates preferred."};
 
