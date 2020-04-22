@@ -1,3 +1,4 @@
+//Team Members: Greg Koch, Daniel Lynch, Katherine McLeod, Josh Ramos
 
 // This is the product information for the 16 "items" for sale
 var tiger = {name: "Tiger", cost: 2250, info: "This is a full grown tiger and if the correct precautions are not taken it will maul you!"};
@@ -26,8 +27,8 @@ var activeAnimal = {};
 //this variable will hold the cost of all of the animals that have been added to the cart
 var totalCart = 0;
 
-//This function provides the actions after a user clicks purchase
-//to add to cart
+/* This function provides the actions after a user clicks purchase
+to add to cart */
 var purchase = function() {
 
   //open up a window after they click
@@ -50,8 +51,8 @@ var purchase = function() {
 
 }
 
-//This function provides the actions after a user clicks a product
-//to show the details of that product
+/* This function provides the actions after a user clicks a product
+to show the details of that product */
 var details = function(animal) {
 
   //shows the product details
@@ -69,9 +70,9 @@ var details = function(animal) {
 
 var checkout = function(){
 
- // upon clicking "checkout", a box pops up that prompts user to enter payment information
-  // and shipping address
-  
+  /* Upon clicking "checkout", a box pops up that prompts user to
+  enter payment information and shipping address. */
+
   alert("Please enter your shipping and payment info");
   //shows the cart after a click of a product
   document.getElementById("form").style.display = "block";
@@ -83,6 +84,5 @@ var checkout = function(){
 
 var buyNow = function(){
   alert("Your animals are on their way!");
-  //add image of Joe Exotic giving thumbs up?
-  //or bring to a new page
+
 }

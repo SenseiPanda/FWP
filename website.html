@@ -2,8 +2,10 @@
 <html>
  <head>
 
+   <!--Team Members: Greg Koch, Daniel Lynch, Katherine McLeod, Josh Ramos -->
+
    <!-- the head creates the website title, links to the css formatting
-   file and links to the java script file for functions -->
+   file and links to the javascript file for functions -->
 
    <title>Exotic Animals</title>
    <link rel="stylesheet" type="text/css" href="format.css">
@@ -39,18 +41,23 @@
     <img id="camel1" src="Camel.jpg" onclick="details(camel);">
     <img id="cat1" src="cat.jpg" onclick="details(cat);">
     <img id="orca1" src="orca.jpg" onclick="details(orca);">
-  
-  
-    <!-- I was thinking about making an "aside" that pops up to show the
-    user what is in the cart once an item has been added to it. This would
-    a box on the right side of the page. I had it working but after adding the
-    other function "details" this appearance no longer works-->
+
+
+    <!-- This next section creates the shopping cart as an "aside,"
+    which pops up on the screen to show the user what is in the cart
+    once an item has been added to it on the right side of the page.-->
+
     <aside id="aside">
       <h3 id="cartTitle">Cart:</h3>
       <p id="cart"></p>
       <p id="subtotal"></p>
         <button onclick="checkout();">checkout</button>
     </aside>
+
+    <!-- Once a user selects the animal(s) to purchase and clicks the
+    checkout button in the shopping cart, coded above, this next portion
+    codes for the billing and shipping form. At the bottom of this form,
+    there is a button to purchase the animals.-->
 
     <checkout id="form">
         <div>
@@ -137,7 +144,7 @@
 
     </checkout>
 
-    <!-- This is going to be the section that shows some product details
+    <!-- Below, this is going to be the section that shows some product details
     of each potential animal that they can purchase. It is initially hidden
     but becomes visible when a user clicks on an image of an animal-->
 
